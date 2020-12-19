@@ -1,0 +1,11 @@
+version: '1.27' #docker-compose version
+services:
+  client:
+    hostname: localhost
+    build: client
+    ports:
+      - 3000
+  backend:
+    build: backend
+    ports:
+      - '4000'
