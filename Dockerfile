@@ -15,7 +15,6 @@ RUN npm install
 
 # Get all the code needed to run the app
 COPY . /usr/src/app/
-#just a test
 # Expose the port the app runs in
 EXPOSE 3000
 
