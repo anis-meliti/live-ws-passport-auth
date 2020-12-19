@@ -1,0 +1,4 @@
+{
+  "mongoUri": "mongodb+srv://ans:anis123456789@cluster0-4akrb.mongodb.net/contact_app?retryWrites=true&w=majority",
+  "secretOrKey": "secrete"
+}
