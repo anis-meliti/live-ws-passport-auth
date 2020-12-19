@@ -11,7 +11,6 @@ RUN npm i npm@latest -g
 RUN npm install
 # copy project folder content
 COPY . .
-# run project on production
-RUN npm run build
+
 EXPOSE 3000 
-CMD npm start
+CMD ["npm", "start"]
