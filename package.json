@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "reactstrap": "^8.7.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  },
+  "scripts": {
+    "back": "cd backend && yarn dev",
+    "client": "cd client && yarn start",
+    "start": "concurrently \"yarn client\" \" yarn back\" "
+  }
+}
