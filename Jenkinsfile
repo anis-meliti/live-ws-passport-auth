@@ -34,4 +34,16 @@ pipeline {
             }
         }
     }
+    stage ('Deploy') { 
+        steps {             
+              script{
+                 
+                  sh "ansible-playbook  playbook.yml --extra-vars \"dockerImage=${dockerImage}\""       
+                  
+            }  
+        }
+   }
+   
 }
+
+
